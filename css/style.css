@@ -1000,15 +1000,25 @@ justify-content: space-between;;
     .header-carousel .header-carousel-item img {
         height: 150vmin;
     }
-    
+
 }
 
-@media (max-width: 500px) {
+@media (max-width: 504px) {
 
 
     .header-carousel .header-carousel-item,
     .header-carousel .header-carousel-item img {
         height: 205vmin;
+    }
+
+    .col-6 {
+        flex: 0 0 auto;
+        margin-bottom: 1.5rem;
+        width: 100%;
+    }
+
+    h3, .h3 {
+        font-size: calc(1rem + 1vw)
     }
     
 }
